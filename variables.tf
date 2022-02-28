@@ -3,7 +3,7 @@ variable "organization_name" {
 }
 
 variable "name_prefix" {
-  default = "UCSX-Demo"
+  default = "UCSX_Domain"
 }
 
 variable "fi_model" {
@@ -15,7 +15,7 @@ variable "serial_number_of_fi-a" {
 }
 
 variable "serial_number_of_fi-b" {
-  default = "FDO251614XJ"
+  default = "FDO252805HV"
 }
 
 
