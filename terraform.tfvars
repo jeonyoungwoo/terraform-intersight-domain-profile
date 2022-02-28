@@ -28,7 +28,7 @@ list_of_server_ports_on-fi-a                    = [17,18]         //변경
 slot_id_of_switch_for_server_ports_on-fi-a      = 1               //변경
 
 #Configure Ethernet uplink port-channel on the collection of ports
-list_of_ports_for_ethernet_uplink_on-fi-a                 = [48]      //변경
+list_of_ports_for_ethernet_uplink_on-fi-a                 = [43]      //변경
 admin_speed_for_ethernet_uplink_port_channel_on-fi-a      = "Auto"    //변경
 port_channel_id_for_ethernet_uplink_on-fi-a               = 16        //변경
 slot_id_of_ports_for_ethernet_uplink_on-fi-a              = 1         //변경
@@ -54,7 +54,7 @@ list_of_server_ports_on-fi-b                    = [17,18]             //변경
 slot_id_of_switch_for_server_ports_on-fi-b      = 1                   //변경
 
 #Configure Ethernet uplink port-channel on the collection of ports
-list_of_ports_for_ethernet_uplink_on-fi-b                 = [48]
+list_of_ports_for_ethernet_uplink_on-fi-b                 = [43]
 admin_speed_for_ethernet_uplink_port_channel_on-fi-b      = "Auto"
 port_channel_id_for_ethernet_uplink_on-fi-b               = 16
 slot_id_of_ports_for_ethernet_uplink_on-fi-b              = 1
@@ -71,7 +71,7 @@ slot_id_of_ports_for_fc_uplink_on-fi-b                    = 2
 
 #Configuration details for all VLANs in Fabric Interconnects
 #Specify the native vlan id
-native_vlan = 2
+native_vlan = 1
 
 #Specify the VLAN Name and VLAN ID like below
 /*  --EXAMPLE--
