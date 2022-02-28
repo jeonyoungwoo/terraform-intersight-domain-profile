@@ -21,7 +21,7 @@ serial_number_of_fi-b                   = "FDO252805HV"           //변경
 #Configure FC Ports
 fc_port_id_start_on-fi-a                        = 1               //변경
 fc_port_id_end_on-fi-a                          = 16               //변경 4->16
-slot_id_of_switch_for_fc_ports_on-fi-a          = 1               //변경
+slot_id_of_switch_for_FC_Uplink_on-fi-a          = 1               //변경
 
 #Cofigure Server Ports
 list_of_server_ports_on-fi-a                    = [17,18]         //변경
@@ -37,7 +37,7 @@ slot_id_of_ports_for_ethernet_uplink_on-fi-a              = 1         //변경
 #Configure FC uplink port-channel on the collection of ports
 list_of_ports_for_fc_uplink_on-fi-a                       = [1]       //변경
 admin_speed_for_fc_uplink_port_channel_on-fi-a            = "16Gbps"  //변경  16 ->8
-port_channel_id_for_fc_uplink_on-fi-a                     = 43       //변경
+port_channel_id_for_fc_uplink_on-fi-a                     = 1       //변경
 correspnding_vsan_id_on-fi-a                              = 3101       //변경  vsan ID
 slot_id_of_ports_for_fc_uplink_on-fi-a                    = 1         //변경
 
@@ -63,9 +63,9 @@ slot_id_of_ports_for_ethernet_uplink_on-fi-b              = 1
 #Configure FC uplink port-channel on the collection of ports
 list_of_ports_for_fc_uplink_on-fi-b                       = [1]
 admin_speed_for_fc_uplink_port_channel_on-fi-b            = "16Gbps"  //변경  16 ->8
-port_channel_id_for_fc_uplink_on-fi-b                     = 43        //112->43
+port_channel_id_for_fc_uplink_on-fi-b                     = 2        //112->43
 correspnding_vsan_id_on-fi-b                              = 3102      //변경  vsan ID
-slot_id_of_ports_for_fc_uplink_on-fi-b                    = 1
+slot_id_of_ports_for_fc_uplink_on-fi-b                    = 2
 
 #FI port 설정-----------------------------------------------------------------------------END
 
