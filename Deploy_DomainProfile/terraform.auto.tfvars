@@ -3,4 +3,4 @@ action              = "Deploy"
 
 
 #Name of UCS Domain Profile which you want to Deploy / Unassign
-name_of_ucs_domain_profile              = "UCSX-Demo"
+name_of_ucs_domain_profile              = "UCSX-Domain"
