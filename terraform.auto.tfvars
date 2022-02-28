@@ -28,7 +28,7 @@ list_of_server_ports_on-fi-a                    = [17,18]
 slot_id_of_switch_for_server_ports_on-fi-a      = 1
 
 #Configure Ethernet uplink port-channel on the collection of ports
-list_of_ports_for_ethernet_uplink_on-fi-a                 = [48]
+list_of_ports_for_ethernet_uplink_on-fi-a                 = [43]
 admin_speed_for_ethernet_uplink_port_channel_on-fi-a      = "Auto"
 port_channel_id_for_ethernet_uplink_on-fi-a               = 15
 slot_id_of_ports_for_ethernet_uplink_on-fi-a              = 1
@@ -54,7 +54,7 @@ list_of_server_ports_on-fi-b                    = [17,18]
 slot_id_of_switch_for_server_ports_on-fi-b      = 1
 
 #Configure Ethernet uplink port-channel on the collection of ports
-list_of_ports_for_ethernet_uplink_on-fi-b                 = [48]
+list_of_ports_for_ethernet_uplink_on-fi-b                 = [43]
 admin_speed_for_ethernet_uplink_port_channel_on-fi-b      = "Auto"
 port_channel_id_for_ethernet_uplink_on-fi-b               = 16
 slot_id_of_ports_for_ethernet_uplink_on-fi-b              = 1
