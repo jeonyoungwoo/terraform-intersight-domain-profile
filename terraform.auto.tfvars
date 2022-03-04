@@ -87,7 +87,16 @@ nfs             = 3050
 
 vlan_details_for_fabric_interconnects= {
         Native_VLAN = 1
-        vlan_id1 = "20-29"
+        vlan_id1 = 20
+        vlan_id2 = 21
+        vlan_id3 = 22
+        vlan_id4 = 23
+        vlan_id5 = 24
+        vlan_id6 = 25
+        vlan_id7 = 26
+        vlan_id8 = 27
+        vlan_id9 = 28
+        vlan_id10 = 29
 }
 
 
